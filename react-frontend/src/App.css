@@ -1,0 +1,122 @@
+/*  main */
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Open Sans", sans-serif;
+}
+/* nav */
+.header{
+  height: 100px;
+  background: rgb(115, 0, 255);
+  min-width: 65em;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 5px solid rgb(80, 80, 80);
+}
+.link{
+  margin-left: 20px;
+}
+.logout{
+  font-size: 50px !important;
+}
+a:-webkit-any-link {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 22px;
+}
+a:hover{
+  color: white;
+  font-weight: bold;
+}
+/* Signup */
+.signup-container{
+ margin-top: 3rem;
+}
+.signup-form{
+  width: 400px;
+  height: 410px;
+  font-size: 30px;
+  border: 1px solid  rgb(115, 0, 255);
+  border-radius: 7px;
+  color:white;
+  background-color: rgb(115, 0, 255);
+  box-shadow: 2px 2px 5px 1px rgba(0,0,0,.8);
+  font-weight: bold;
+}
+.signup-form input {
+  width: 250px;
+  height: 30px;
+  font-size: 19px;
+  font-weight: lighter;
+  border-radius: 3px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Login */
+.login-container{
+ margin-top: 3rem;
+}
+.login-form input {
+  width: 250px;
+  height: 30px;
+  font-size: 19px;
+  font-weight: lighter;
+  border-radius: 3px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-form{
+  width: 400px;
+  height: 350px;
+  font-size: 30px;
+  border: 1px solid  rgb(115, 0, 255);
+  border-radius: 7px;
+  color:white;
+  background-color: rgb(115, 0, 255);
+  box-shadow: 2px 2px 5px 1px rgba(0,0,0,.8);
+  font-weight: bold;
+}
+/* global */
+.error{ 
+  padding: 10px;
+  margin-top: 1em;
+  font-size: 15px;
+}
+.success{ 
+  padding: 10px;
+  margin-top: 1em;
+  font-size: 15px;
+}
+.btn{
+  margin-top: 1rem;
+  color: black;
+  background-color: white;
+  height: 50px;
+  width: 100px;
+  font-size: 25px;
+  font-weight:500 ;
+  border: none;
+  border-radius: 5px;
+}
+.logout{
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    padding-left: 1em;
+    font-size: 22px;
+}
+.Dashboard{
+  min-width: 100vw;
+  min-height: 100vh;
+}
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');

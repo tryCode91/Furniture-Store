@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "react-router-redirect": "^1.0.1",
+    "uuid4": "^2.0.3"
+  }
+}
